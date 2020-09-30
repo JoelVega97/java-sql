@@ -990,7 +990,7 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
 
 ```
 
-- [ ] **_add a customer record for_**
+- [x] **_add a customer record for_**
 - customer id is 'SHIRE'
 - company name is 'The Shire'
 - contact name is 'Bilbo Baggins'
@@ -1007,7 +1007,7 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
 {"SHIRE"	"The Shire"	"Bilbo Baggins"		"1 Hobbit-Hole"	"Bag End"	 "111"	"Middle Earth"}
 ```
 
-- [ ] **_update *Bilbo Baggins* record so that the postal code changes to *"11122"*_**
+- [x] **_update *Bilbo Baggins* record so that the postal code changes to *"11122"*_**
 
   <details><summary>hint</summary>
 
@@ -1015,10 +1015,10 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
   </details>
 
 ```SQL
-
+{"SHIRE"	"The Shire"	"Bilbo Baggins"		"1 Hobbit-Hole"	"Bag End"		"11122"	"Middle Earth"}
 ```
 
-- [ ] **_list orders grouped and ordered by customer company name showing the number of orders per customer company name. *Rattlesnake Canyon Grocery* should have 18 orders_**
+- [x] **_list orders grouped and ordered by customer company name showing the number of orders per customer company name. *Rattlesnake Canyon Grocery* should have 18 orders_**
 
   <details><summary>hint</summary>
 
@@ -1027,7 +1027,7 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
   </details>
 
 ```SQL
-
+18	"Rattlesnake Canyon Grocery"
 ```
 
 - [ ] **_list customers by contact name and the number of orders per contact name. Sort the list by the number of orders in descending order. *Jose Pavarotti* should be at the top with 31 orders followed by *Roland Mendal* with 30 orders. Last should be *Francisco Chang* with 1 order_**
@@ -1038,7 +1038,95 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
   </details>
 
 ```SQL
-
+{31	"Jose Pavarotti"}
+{30	"Roland Mendel"}
+{28	"Horst Kloss"}
+{19	"Patricia McKenna"}
+{19	"Maria Larsson"}
+{18	"Paula Wilson"}
+{18	"Carlos Hernández"}
+{18	"Christina Berglund"}
+{17	"Laurence Lebihan"}
+{15	"Renate Messner"}
+{15	"Pirkko Koskitalo"}
+{15	"Peter Franken"}
+{14	"Carlos González"}
+{14	"Philip Cramer"}
+{14	"Karl Jablonski"}
+{14	"Elizabeth Lincoln"}
+{14	"Annette Roulet"}
+{14	"Mario Pontes"}
+{13	"Thomas Hardy"}
+{13	"Lúcia Carvalho"}
+{13	"Jean Fresnière"}
+{12	"Pascale Cartrain"}
+{12	"Felipe Izquierdo"}
+{12	"Maurizio Moroni"}
+{11	"Howard Snyder"}
+{11	"Janete Limeira"}
+{11	"Frédérique Citeaux"}
+{11	"Palle Ibsen"}
+{10	"Miguel Angel Paolino"}
+{10	"Rene Phillips"}
+{10	"Rita Müller"}
+{10	"José Pedro Freyre"}
+{10	"Mary Saveley"}
+{10	"Georg Pipps"}
+{10	"Helen Bennett"}
+{10	"Victoria Ashworth"}
+{10	"Giovanni Rovelli"}
+{10	"Michael Holz"}
+{10	"Henriette Pfalzheim"}
+{9	"Hari Kumar"}
+{9	"Bernardo Batista"}
+{9	"Art Braunschweiger"}
+{9	"André Fonseca"}
+{9	"Paula Parente"}
+{8	"Fran Wilson"}
+{8	"Lino Rodriguez"}
+{8	"Yang Wang"}
+{8	"Ann Devon"}
+{7	"Hanna Moos"}
+{7	"Aria Cruz"}
+{7	"Zbyszek Piestrzeniewicz"}
+{7	"Catherine Dewey"}
+{7	"Jytte Petersen"}
+{7	"Antonio Moreno"}
+{7	"Matti Karttunen"}
+{6	"Karin Josephs"}
+{6	"Jonas Bergulfsen"}
+{6	"Maria Anders"}
+{6	"Sven Ottlieb"}
+{6	"Guillermo Fernández"}
+{6	"Anabela Domingues"}
+{6	"Patricio Simpson"}
+{6	"Paolo Accorti"}
+{5	"Martine Rancé"}
+{5	"Yvonne Moncada"}
+{5	"Isabel de Castro"}
+{5	"Sergio Gutiérrez"}
+{5	"Alejandra Camino"}
+{5	"Eduardo Saavedra"}
+{5	"Pedro Afonso"}
+{5	"Alexander Feuer"}
+{5	"Yoshi Latimer"}
+{5	"Paul Henriot"}
+{4	"Jaime Yorres"}
+{4	"Janine Labrune"}
+{4	"Daniel Tonini"}
+{4	"Ana Trujillo"}
+{4	"Liz Nixon"}
+{4	"Dominique Perrier"}
+{3	"Elizabeth Brown"}
+{3	"Simon Crowther"}
+{3	"Carine Schmitt"}
+{3	"Yoshi Tannamuri"}
+{3	"Martín Sommer"}
+{3	"Liu Wong"}
+{3	"Helvetius Nagy"}
+{2	"John Steel"}
+{2	"Manuel Pereira"}
+{1	"Francisco Chang"}
 ```
 
 - [ ] **_list orders grouped by customer's city showing the number of orders per city. Returns 69 Records with *Aachen* showing 6 orders and *Albuquerque* showing 18 orders_**
