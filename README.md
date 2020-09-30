@@ -941,7 +941,7 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
 {"New England Seafood Cannery"}
 ```
 
-- [ ] **_find all customers that include the word 'MARKET' in the contact title. Should return 19 records_**
+- [x] **_find all customers that include the word 'MARKET' in the contact title. Should return 19 records_**
 
   <details><summary>hint</summary>
 
@@ -1004,7 +1004,7 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
   </details>
 
 ```SQL
-
+{"SHIRE"	"The Shire"	"Bilbo Baggins"		"1 Hobbit-Hole"	"Bag End"	 "111"	"Middle Earth"}
 ```
 
 - [ ] **_update *Bilbo Baggins* record so that the postal code changes to *"11122"*_**
