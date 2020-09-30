@@ -928,7 +928,17 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
   </details>
 
 ```SQL
-
+{"New Orleans Cajun Delights"}
+{"Grandma Kelly's Homestead"}
+{"Cooperativa de Quesos 'Las Cabras'"}
+{"Specialty Biscuits, Ltd."}
+{"Refrescos Americanas LTDA"}
+{"Heli Süßwaren GmbH & Co. KG"}
+{"Plutzer Lebensmittelgroßmärkte AG"}
+{"Nord-Ost-Fisch Handelsgesellschaft mbH"}
+{"Formaggi Fortini s.r.l."}
+{"Aux joyeux ecclésiastiques"}
+{"New England Seafood Cannery"}
 ```
 
 - [ ] **_find all customers that include the word 'MARKET' in the contact title. Should return 19 records_**
