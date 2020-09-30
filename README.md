@@ -1030,7 +1030,7 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
 18	"Rattlesnake Canyon Grocery"
 ```
 
-- [ ] **_list customers by contact name and the number of orders per contact name. Sort the list by the number of orders in descending order. *Jose Pavarotti* should be at the top with 31 orders followed by *Roland Mendal* with 30 orders. Last should be *Francisco Chang* with 1 order_**
+- [x] **_list customers by contact name and the number of orders per contact name. Sort the list by the number of orders in descending order. *Jose Pavarotti* should be at the top with 31 orders followed by *Roland Mendal* with 30 orders. Last should be *Francisco Chang* with 1 order_**
 
   <details><summary>hint</summary>
 
@@ -1129,7 +1129,7 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
 {1	"Francisco Chang"}
 ```
 
-- [ ] **_list orders grouped by customer's city showing the number of orders per city. Returns 69 Records with *Aachen* showing 6 orders and *Albuquerque* showing 18 orders_**
+- [x] **_list orders grouped by customer's city showing the number of orders per city. Returns 69 Records with *Aachen* showing 6 orders and *Albuquerque* showing 18 orders_**
 
   <details><summary>hint</summary>
 
@@ -1137,7 +1137,75 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
   </details>
 
 ```SQL
-
+{46	"London"}
+{34	"Rio de Janeiro"}
+{31	"Boise"}
+{31	"Sao Paulo"}
+{30	"Graz"}
+{28	"México D.F."}
+{28	"Cunewalde"}
+{19	"Bräcke"}
+{19	"Cork"}
+{18	"Luleå"}
+{18	"Albuquerque"}
+{18	"San Cristóbal"}
+{17	"Marseille"}
+{16	"Buenos Aires"}
+{15	"Frankfurt a.M."}
+{15	"Oulu"}
+{15	"München"}
+{14	"Tsawassen"}
+{14	"Brandenburg"}
+{14	"Seattle"}
+{14	"Barquisimeto"}
+{14	"Toulouse"}
+{13	"Montréal"}
+{13	"Lisboa"}
+{12	"Portland"}
+{12	"Reggio Emilia"}
+{12	"I. de Margarita"}
+{12	"Charleroi"}
+{11	"Eugene"}
+{11	"Århus"}
+{11	"Strasbourg"}
+{10	"Anchorage"}
+{10	"Salzburg"}
+{10	"Stuttgart"}
+{10	"Sevilla"}
+{10	"Köln"}
+{10	"Cowes"}
+{10	"Lyon"}
+{10	"Genève"}
+{10	"Bergamo"}
+{9	"Lander"}
+{9	"Campinas"}
+{9	"Resende"}
+{8	"Madrid"}
+{8	"Bern"}
+{7	"Kobenhavn"}
+{7	"Mannheim"}
+{7	"Nantes"}
+{7	"Helsinki"}
+{7	"Warszawa"}
+{7	"Bruxelles"}
+{6	"Stavern"}
+{6	"Torino"}
+{6	"Berlin"}
+{6	"Münster"}
+{6	"Aachen"}
+{5	"Lille"}
+{5	"Elgin"}
+{5	"Reims"}
+{5	"Barcelona"}
+{5	"Leipzig"}
+{4	"Paris"}
+{4	"San Francisco"}
+{4	"Versailles"}
+{3	"Butte"}
+{3	"Kirkland"}
+{3	"Vancouver"}
+{2	"Walla Walla"}
+{2	"Caracas"}
 ```
 
 ## Data Normalization
