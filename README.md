@@ -919,7 +919,7 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
 "1996-07-04"
 ```
 
-- [ ] **_find all suppliers who have names longer than 20 characters. Returns 11 records_**
+- [x] **_find all suppliers who have names longer than 20 characters. Returns 11 records_**
 
   <details><summary>hint</summary>
 
@@ -951,6 +951,42 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
   </details>
 
 ```SQL
+{"BLONP"	"Blondesddsl père et fils"	"Frédérique Citeaux"	"Marketing Manager"	"24, place Kléber"	"Strasbourg"		"67000"	"France"	"88.60.15.31"	"88.60.15.32"}
+
+{"CENTC"	"Centro comercial Moctezuma"	"Francisco Chang"	"Marketing Manager"	"Sierras de Granada 9993"	"México D.F."		"05022"	"Mexico"	"(5) 555-3392"	"(5) 555-7293"}
+
+{"FAMIA"	"Familia Arquibaldo"	"Aria Cruz"	"Marketing Assistant"	"Rua Orós, 92"	"Sao Paulo"	"SP"	"05442-030"	"Brazil"	"(11) 555-9857"	}
+
+{"FRANK"	"Frankenversand"	"Peter Franken"	"Marketing Manager"	"Berliner Platz 43"	"München"		"80805"	"Germany"	"089-0877310"	"089-0877451"}
+
+{"FRANR"	"France restauration"	"Carine Schmitt"	"Marketing Manager"	"54, rue Royale"	"Nantes"		"44000"	"France"	"40.32.21.21"	"40.32.21.20"}
+
+{"GALED"	"Galería del gastrónomo"	"Eduardo Saavedra"	"Marketing Manager"	"Rambla de Cataluña, 23"	"Barcelona"		"08022"	"Spain"	"(93) 203 4560"	"(93) 203 4561"}
+
+{"GREAL"	"Great Lakes Food Market"	"Howard Snyder"	"Marketing Manager"	"2732 Baker Blvd."	"Eugene"	"OR"	"97403"	"USA"	"(503) 555-7555"	}
+
+{"ISLAT"	"Island Trading"	"Helen Bennett"	"Marketing Manager"	"Garden House Crowther Way"	"Cowes"	"Isle of Wight"	"PO31 7PJ"	"UK"	"(198) 555-8888"}
+
+{"LAUGB"	"Laughing Bacchus Wine Cellars"	"Yoshi Tannamuri"	"Marketing Assistant"	"1900 Oak St."	"Vancouver"	"BC"	"V3F 2K1"	"Canada"	"(604) 555-3392"	"(604) 555-7293"
+"LAZYK"	"Lazy K Kountry Store"	"John Steel"	"Marketing Manager"	"12 Orchestra Terrace"	"Walla Walla"	"WA"	"99362"	"USA"	"(509) 555-7969"	"(509) 555-6221"}
+
+{"MAGAA"	"Magazzini Alimentari Riuniti"	"Giovanni Rovelli"	"Marketing Manager"	"Via Ludovico il Moro 22"	"Bergamo"		"24100"	"Italy"	"035-640230"	"035-640231"}
+
+{"MEREP"	"Mère Paillarde"	"Jean Fresnière"	"Marketing Assistant"	"43 rue St. Laurent"	"Montréal"	"Québec"	"H1J 1C3"	"Canada"	"(514) 555-8054"	"(514) 555-8055"}
+
+{"MORGK"	"Morgenstern Gesundkost"	"Alexander Feuer"	"Marketing Assistant"	"Heerstr. 22"	"Leipzig"		"04179"	"Germany"	"0342-023176"	}
+
+{"QUEEN"	"Queen Cozinha"	"Lúcia Carvalho"	"Marketing Assistant"	"Alameda dos Canàrios, 891"	"Sao Paulo"	"SP"	"05487-020"	"Brazil"	"(11) 555-1189"}
+
+{"SPECD"	"Spécialités du monde"	"Dominique Perrier"	"Marketing Manager"	"25, rue Lauriston"	"Paris"		"75016"	"France"	"(1) 47.55.60.10"	"(1) 47.55.60.20"}
+
+{"THEBI"	"The Big Cheese"	"Liz Nixon"	"Marketing Manager"	"89 Jefferson Way Suite 2"	"Portland"	"OR"	"97201"	"USA"	"(503) 555-3612"}
+
+{"THECR"	"The Cracker Box"	"Liu Wong"	"Marketing Assistant"	"55 Grizzly Peak Rd."	"Butte"	"MT"	"59801"	"USA"	"(406) 555-5834"	"(406) 555-8083"}
+
+{"TOMSP"	"Toms Spezialitäten"	"Karin Josephs"	"Marketing Manager"	"Luisenstr. 48"	"Münster"		"44087"	"Germany"	"0251-031259"	"0251-035695"}
+
+{"WILMK"	"Wilman Kala"	"Matti Karttunen"	"Owner/Marketing Assistant"	"Keskuskatu 45"	"Helsinki"		"21240"	"Finland"	"90-224 8858"	"90-224 8858"}
 
 ```
 
