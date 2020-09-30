@@ -31,7 +31,7 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
 
 ### Answer the following data queries. Keep track of the SQL you write by pasting it into this document under its appropriate header below in the provided SQL code block. You will be submitting that through the regular fork, change, pull process
 
-- [ ] **_find all customers that live in London. Returns 6 records_**
+- [x] **_find all customers that live in London. Returns 6 records_**
 
   <details><summary>hint</summary>
 
@@ -53,7 +53,7 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
 
 ```
 
-- [ ] **_find all customers with postal code 1010. Returns 3 customers_**
+- [x] **_find all customers with postal code 1010. Returns 3 customers_**
 
   <details><summary>hint</summary>
 
@@ -61,7 +61,11 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
   </details>
 
 ```SQL
+{"CACTU"	"Cactus Comidas para llevar"	"Patricio Simpson"	"Sales Agent"	"Cerrito 333"	"Buenos Aires"		"1010"	"Argentina"	"(1) 135-5555"	"(1) 135-4892"}
 
+{"OCEAN"	"Océano Atlántico Ltda."	"Yvonne Moncada"	"Sales Agent"	"Ing. Gustavo Moncada 8585 Piso 20-A"	"Buenos Aires"		"1010"	"Argentina"	"(1) 135-5333"	"(1) 135-5535"}
+
+{"RANCH"	"Rancho grande"	"Sergio Gutiérrez"	"Sales Representative"	"Av. del Libertador 900"	"Buenos Aires"		"1010"	"Argentina"	"(1) 123-5555"	"(1) 123-5556"}
 ```
 
 - [ ] **_find the phone number for the supplier with the id 11. Should be (010) 9984510_**
